@@ -1,8 +1,8 @@
 body {
     margin:0 auto ;
-    background-image:url(../Assets/Images/dust_scratches.png);
-    color: #777777;
-    font-family:Arial, Helvetica, sans-serif;
+    background-image:url(../Assets/Images/folk-pattern-black/folk-pattern-black.png);
+    color: white;
+    font-family: 'Candal', sans-serif;
 }
 
 .row{
@@ -14,21 +14,26 @@ body {
 
     
 #navigation {
-    padding: 0px
+    padding: 0px;
+    background-color: #3f3f3f;
+    border: 0px
 }
 
 #connerheading {
-    background-color: #4aaaa5;
+    background-color: black;
     color: white;
     padding:5px;
+    font-family: 'Days One', sans-serif;
+
 }
 
 #navbarsupportedcontet{
     float:right;
+    color: white;
 }
 
 nav {
-    background-color:#ffffff;
+    background-color:#3f3f3f;
     Margin-left: auto;
     margin-right: auto;
     border-bottom: solid;
@@ -45,16 +50,15 @@ nav {
 }
 
 #aboutmebg {
-    background-color: #ffffff;
-    border: solid;
-    border-color: #dddddd
+    background-color: #3f3f3f;
+
 }
 
 #aboutmetitle {
     margin: 10px;
     border-bottom: solid;
     border-color: #dddddd;
-    color:#4aaaa5 
+    color:white 
 }
 
 img {
@@ -77,9 +81,8 @@ img {
 }
 
 #contactbg {
-    background-color: #ffffff;
-    border: solid;
-    border-color: #dddddd;
+    background-color: black;
+
 }
 
 #exampleInputmessage {
@@ -98,27 +101,26 @@ img {
 }
 
 #portfoliobg {
-    background-color: #ffffff;
-    border: solid;
-    border-width: 1px 1px 0px 1px;
-    border-color: #dddddd;
+    background-color: black;
     padding: 10px
 }
 
 #portfoliobg2 {
-    background-color: #ffffff;
-    border: solid;
-    border-width: 0px 1px 1px 1px;
-    border-color: #dddddd;
+    background-color: black;
     padding:10px
 }
 
 .card-img-top {
     Margin: 0px;
+    background-color: black;
+    
 }
-
+.card {
+    background-color: black;
+    margin: 10px;
+}
 .card-body {
-    background-color: #4aaaa5
+    background-color: black;
 }
 
 h5 {
@@ -128,7 +130,7 @@ h5 {
 
 /* Footer */
 .footercontainer {
-    background-color: #4aaaa5;
+    background-color: black;
     padding-bottom: 50px;
     position:fixed;
     left: 0;
@@ -137,7 +139,7 @@ h5 {
 }
 #footer {
     text-align: center; 
-    background-color:#777777;
+    background-color:#3f3f3f;
     color: white;
     position:fixed;
     left: 0;
